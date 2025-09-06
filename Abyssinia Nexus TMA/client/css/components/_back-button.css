@@ -1,0 +1,29 @@
+/* css/components/_back-button.css */
+/* Styles for the back button component */
+
+.app-header {
+    padding: var(--spacing-md);
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--color-surface);
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: var(--color-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-medium);
+    padding: var(--spacing-sm) 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.back-button:hover {
+    opacity: 0.8;
+}
+
+.back-button:active {
+    transform: translateX(-2px);
+}
